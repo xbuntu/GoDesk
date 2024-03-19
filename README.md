@@ -18,8 +18,8 @@
 ![](preview/8.jpg)
 
 # 开发环境搭建
-- 安装 [go](https://studygolang.com/dl)  
-- 配置 go 环境变量（参考）
+- 1、安装 [go](https://studygolang.com/dl)  
+- 2、配置 go 环境变量（参考）
 
 ```shell
 #/opt/go 替换成 go 安装目录
@@ -33,12 +33,12 @@ export GOSUMDB=sum.golang.google.cn
 export PATH=$PATH:$GOROOT/bin:$GOBIN
 ```
 
-- 安装 gcc（推荐安装 [TDM-GCC](https://jmeubank.github.io/tdm-gcc/download/) ）  
-- 安装 [wails](https://wails.io/zh-Hans/docs/gettingstarted/installation/)  
+- 3、安装 gcc（推荐安装 [TDM-GCC](https://jmeubank.github.io/tdm-gcc/download/) ）  
+- 4、安装 [wails](https://wails.io/zh-Hans/docs/gettingstarted/installation/)  
 ```shell
 go install github.com/wailsapp/wails/v2/cmd/wails@latest
 ```
-- 安装 [npm](https://nodejs.org/) 
+- 5、安装 [npm](https://nodejs.org/) 
 
 # 运行命令
 ```shell
