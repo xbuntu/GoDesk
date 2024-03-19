@@ -1,7 +1,7 @@
 # GoDesk 介绍
->GoDesk 基于golang+wails+vue实现跨平台桌面应用程序开发基础框架，集成了vue路由、基本的登录、element-plus
-
-下载体验版：https://gitee.com/xbuntu/go-desk/releases/tag/v1.0-beta
+>GoDesk 基于golang+wails+vue实现跨平台桌面应用程序开发基础框架，集成了vue路由、基本的登录、element UI  
+下载体验版：https://github.com/xbuntu/GoDesk/releases  
+码云下载体验版：https://gitee.com/xbuntu/go-desk/releases/tag/v1.0-beta  
 
 # QQ交流群  
 ![](preview/GoDesk.png)
