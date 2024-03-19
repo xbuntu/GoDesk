@@ -14,8 +14,6 @@
 ![](preview/4.jpg)
 ![](preview/5.jpg)
 ![](preview/6.jpg)
-![](preview/7.jpg)
-![](preview/8.jpg)
 
 # 开发环境搭建  
 1.安装 [go](https://studygolang.com/dl)  
