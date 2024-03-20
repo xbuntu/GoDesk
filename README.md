@@ -1,23 +1,18 @@
 # GoDesk 介绍
->GoDesk 基于golang+wails+vue实现跨平台桌面应用程序开发基础框架，集成了vue路由、基本的登录、element UI
-  
-下载体验版：https://github.com/xbuntu/GoDesk/releases  
-码云体验版：https://gitee.com/xbuntu/go-desk/releases/tag/v1.0-beta  
+>GoDesk 基于golang+wails+vue实现跨平台桌面应用程序开发模板，集成了vue路由、基本的登录、element、windows DLL调用、基本Go代码调用
+
+下载体验版：https://gitee.com/xbuntu/go-desk/releases/tag/v1.0-beta
 
 # QQ交流群  
 ![](preview/GoDesk.png)
 
 # 预览
 ![](preview/1.jpg)
-![](preview/2.jpg)
-![](preview/3.jpg)
-![](preview/4.jpg)
-![](preview/5.jpg)
-![](preview/6.jpg)
 
-# 开发环境搭建  
-1.安装 [go](https://studygolang.com/dl)  
-2.配置 go 环境变量（参考）  
+# 开发环境搭建
+- 安装 [go](https://studygolang.com/dl)  
+- 配置 go 环境变量（参考）
+
 ```shell
 #/opt/go 替换成 go 安装目录
 export GOROOT=/opt/go
@@ -29,12 +24,13 @@ export GOPRIVATE=*.gitlab.com,*.gitee.com,*.github.com
 export GOSUMDB=sum.golang.google.cn
 export PATH=$PATH:$GOROOT/bin:$GOBIN
 ```
-3.安装 gcc（推荐安装 [TDM-GCC](https://jmeubank.github.io/tdm-gcc/download/) ）  
-4.安装 [wails](https://wails.io/zh-Hans/docs/gettingstarted/installation/)  
+
+- 安装 gcc（推荐安装 [TDM-GCC](https://jmeubank.github.io/tdm-gcc/download/) ）  
+- 安装 [wails](https://wails.io/zh-Hans/docs/gettingstarted/installation/)  
 ```shell
 go install github.com/wailsapp/wails/v2/cmd/wails@latest
 ```
-5.安装 [npm](https://nodejs.org/) 
+- 安装 [npm](https://nodejs.org/) 
 
 # 运行命令
 ```shell
@@ -56,50 +52,27 @@ wails build -nsis -upx
 ```
 
 # 参考网站
-- wails  
->使用 Go 构建漂亮的跨平台应用程序    
-https://wails.io/zh-Hans/docs/gettingstarted/installation/
+- [wails](https://wails.io/zh-Hans/docs/gettingstarted/installation/)  使用 Go 构建漂亮的跨平台应用程序    
 
-- npm  
->Vue包检索网站    
-https://www.npmjs.com/
+- [npm](https://www.npmjs.com/)  Vue包检索网站
 
-- vue
->用于构建用户界面的 JavaScript 框架   
-https://cn.vuejs.org/
+- [vue](https://cn.vuejs.org/)  用于构建用户界面的 JavaScript 框架   
 
-- Element UI
->Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库    
-https://element.eleme.io/#/zh-CN/component/installation
+- [Element UI](https://element.eleme.io/#/zh-CN/component/installation) 一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库    
 
-- upx  
->用于压缩您的应用程序    
-https://upx.github.io/
+- [upx](https://upx.github.io/)  用于压缩您的应用程序    
 
-- NSIS  
->用于生成 Windows 安装程序   
-https://nsis.sourceforge.io/Download
+- [NSIS](https://nsis.sourceforge.io/Download)  用于生成 Windows 安装程序   
 
-- Gorm  
->orm框架  
-https://gorm.io/zh_CN/docs/query.html
- 
-- GoFrame  
->一款模块化、高性能、企业级的Go基础开发框架。    
-https://goframe.org/display/gf
-  
-- Gin
->Go最快的全功能web框架  
-https://gin-gonic.com/
+- [Gorm](https://gorm.io/zh_CN/docs/query.html)  go语言orm框架  
 
-- golang中文网
->go学习交流平台  
-https://studygolang.com/dl
+- [GoFrame](https://goframe.org/display/gf)  一款模块化、高性能、企业级的Go基础开发框架。    
 
-- TDM-GCC
->windows系统 gcc 编译环境    
-https://jmeubank.github.io/tdm-gcc/download/
+- [Gin](https://gin-gonic.com/)  Go最快的全功能web框架  
+
+- [golang中文网](https://studygolang.com/dl)  go学习交流平台  
+
+- [TDM-GCC](https://jmeubank.github.io/tdm-gcc/download/)  windows系统 gcc 编译环境
 
 # QQ交流群  
 ![](preview/GoDesk.png)
-
