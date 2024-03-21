@@ -3,9 +3,6 @@
 
 下载体验版：https://gitee.com/xbuntu/go-desk/releases/tag/v1.0-beta
 
-# QQ交流群  
-![](preview/GoDesk.png)
-
 # 预览
 ![](preview/1.jpg)
 
